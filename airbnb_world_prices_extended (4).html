@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/maps/world.js"></script>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/themes/westeros.js"></script>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/jquery.min.js"></script>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/jquery-ui.min.js"></script>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/ResizeSensor.js"></script>
+
+            <link rel="stylesheet"  href="https://assets.pyecharts.org/assets/v5/jquery-ui.css">
+
+</head>
+<body >
+    <style>.box {  } </style>
+        <button onclick="downloadCfg()">Save Config</button>
+    <div class="box">
+                <div id="9e5e9c5564d94257bd350fb4a267cc15" class="chart-container" style="width:1200px; height:600px; "></div>
+    <script>
+        var chart_9e5e9c5564d94257bd350fb4a267cc15 = echarts.init(
+            document.getElementById('9e5e9c5564d94257bd350fb4a267cc15'), 'westeros', {renderer: 'canvas'});
+        var option_9e5e9c5564d94257bd350fb4a267cc15 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "series": [
+        {
+            "type": "map",
+            "name": "\u0421\u0440\u0435\u0434\u043d\u044f\u044f \u0446\u0435\u043d\u0430 Airbnb",
+            "label": {
+                "show": false,
+                "margin": 8,
+                "valueAnimation": false
+            },
+            "map": "world",
+            "data": [
+                {
+                    "name": "Australia",
+                    "value": 165.08
+                },
+                {
+                    "name": "Austria",
+                    "value": 67.08
+                },
+                {
+                    "name": "Belgium",
+                    "value": 68.05
+                },
+                {
+                    "name": "Canada",
+                    "value": 107.01
+                },
+                {
+                    "name": "China",
+                    "value": 320.3
+                },
+                {
+                    "name": "Denmark",
+                    "value": 596.43
+                },
+                {
+                    "name": "France",
+                    "value": 94.43
+                },
+                {
+                    "name": "Germany",
+                    "value": 57.22
+                },
+                {
+                    "name": "Greece",
+                    "value": 52.94
+                },
+                {
+                    "name": "Ireland",
+                    "value": 103.78
+                },
+                {
+                    "name": "Italy",
+                    "value": 93.96
+                },
+                {
+                    "name": "Mexico",
+                    "value": 25.0
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 133.99
+                },
+                {
+                    "name": "Spain",
+                    "value": 97.14
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 120.16
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 93.02
+                },
+                {
+                    "name": "United States",
+                    "value": 156.05
+                }
+            ],
+            "roam": true,
+            "aspectScale": 0.75,
+            "nameProperty": "name",
+            "selectedMode": false,
+            "zoom": 1,
+            "zlevel": 0,
+            "z": 2,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "mapValueCalculation": "sum",
+            "showLegendSymbol": true,
+            "emphasis": {},
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u0421\u0440\u0435\u0434\u043d\u044f\u044f \u0446\u0435\u043d\u0430 Airbnb"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "formatter": "{b}: ${c}",
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "text": "\u0421\u0440\u0435\u0434\u043d\u0438\u0435 \u0446\u0435\u043d\u044b Airbnb \u043f\u043e \u0441\u0442\u0440\u0430\u043d\u0430\u043c",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "piecewise",
+        "min": 0,
+        "max": 300,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "hoverLink": true,
+        "orient": "vertical",
+        "padding": 5,
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 14,
+        "borderWidth": 0,
+        "pieces": [
+            {
+                "min": 0,
+                "max": 50,
+                "label": "0-50",
+                "color": "#FFE1E1"
+            },
+            {
+                "min": 51,
+                "max": 100,
+                "label": "51-100",
+                "color": "#FFA07A"
+            },
+            {
+                "min": 101,
+                "max": 150,
+                "label": "101-150",
+                "color": "#FF7F50"
+            },
+            {
+                "min": 151,
+                "max": 200,
+                "label": "151-200",
+                "color": "#FF4500"
+            },
+            {
+                "min": 201,
+                "max": 300,
+                "label": "201-300",
+                "color": "#8B0000"
+            }
+        ]
+    }
+};
+        chart_9e5e9c5564d94257bd350fb4a267cc15.setOption(option_9e5e9c5564d94257bd350fb4a267cc15);
+    </script>
+<br/>    </div>
+    <script>
+            $('#9e5e9c5564d94257bd350fb4a267cc15').resizable().draggable().css('border-style', 'dashed').css('border-width', '1px');$("#9e5e9c5564d94257bd350fb4a267cc15>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#9e5e9c5564d94257bd350fb4a267cc15'), function() { chart_9e5e9c5564d94257bd350fb4a267cc15.resize()});
+            var charts_id = ['9e5e9c5564d94257bd350fb4a267cc15'];
+function downloadCfg () {
+    const fileName = 'chart_config.json'
+    let downLink = document.createElement('a')
+    downLink.download = fileName
+
+    let result = []
+    for(let i=0; i<charts_id.length; i++) {
+        chart = $('#'+charts_id[i])
+        result.push({
+            cid: charts_id[i],
+            width: chart.css("width"),
+            height: chart.css("height"),
+            top: chart.offset().top + "px",
+            left: chart.offset().left + "px"
+        })
+    }
+
+    let blob = new Blob([JSON.stringify(result)])
+    downLink.href = URL.createObjectURL(blob)
+    document.body.appendChild(downLink)
+    downLink.click()
+    document.body.removeChild(downLink)
+}
+    </script>
+</body>
+</html>
